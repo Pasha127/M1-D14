@@ -1,17 +1,132 @@
-.box{
-    width: 20px;
-    height: 20px;
-    border: 2px solid red;
-    display: inline;
+.mBox{
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #F9D2C8;
+    display: inline-block;
     position: relative;
+    padding: 1px;
+    margin-inline: 1px;
+    margin-block: 1px;
+    font-size: 22pt;
+    text-align: center;
+    border-radius: 4px;
+}
+.box{
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #F9D2C8;
+    display: inline-block;
+    position: relative;
+    padding: 1px;
+    margin-inline: 1px;
+    margin-block: 1px;
+    font-size: 22pt;
+    text-align: center;
+    border-radius: 4px;
 }
 .body{
-    display: inline;    
+    display: inline-block;    
     width: 100vw;
     height: 100vh;
+    background-color: #FFFDD3;
 }
 .boxZone{
-    height: 100%;
-    width: 100%;    
+    border: 2px solid black;
+    padding:2px;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    height: 875px;
+    width: 184px;
+    margin: 0px;
+    background-color: #C4D3FF;
+    float: left;
+     transform: translateY(28px); 
+}
+.playerBoxZone{
+    border: 2px solid black;
+    padding:2px;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    height:251px;
+    width: 230px;
+    margin: 0px;
+    background-color: #C4D3FF;
+    
+}
+.playerZone{
+    border: 2px solid black;
+    padding:2px;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    min-height:240px;
+    width: 476px;
+    margin: 0px;
+    float: left;
+    background-color: #C4D3FF;
+    
+}
+.randomButtonBox{
+    position: absolute;
+    display: block;
+    border: 2px solid black;
+    padding:2px;
+    border-radius: 4px;    
+    height:20px;
+    width: 184px;
+    margin: 0px;    
+    background-color: #C4D3FF;
+}
+.playerNumberContainer{
+    border: 2px solid black;
+    padding:2px;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    min-height:230px;
+    width: 466px;
+    margin: 0px;
+    float: left;
+    background-color: #E3FAD8;
+    font-size: xx-large;
+    text-align: center;
 
+    
+}
+.playButton{
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 32pt;
+}
+.randoButton{
+    position: relative;
+    display: block;
+    height: 18px;
+    width: 180px;
+    margin: auto;
+    margin-top: 0px;
+    font-size: 10pt;
+}
+.header{
+    position: absolute;
+    text-align: center;
+}
+.boxSelected{
+    background-color: #E3FAD8;
+}
+.nameInput{
+    width: 222px;
+}
+
+.invisible{
+    visibility: hidden;
+    display: none;
 }
